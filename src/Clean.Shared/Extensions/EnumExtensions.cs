@@ -7,6 +7,7 @@ namespace Clean.Shared.Extensions
 {
     using System;
     using System.ComponentModel;
+    using System.Globalization;
 
     /// <summary>   An enum extensions. </summary>
     public static class EnumExtensions
@@ -25,22 +26,34 @@ namespace Clean.Shared.Extensions
         ///
         /// <returns>   The description. </returns>
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        public static string GetDescription(this Enum genericEnum)
+        public static string GetDescription<T>(this T anEnum) where T : IConvertible
         {
-            var genericEnumType = genericEnum.GetType();
-            var memberInfo = genericEnumType.GetMember(genericEnum.ToString());
+            string description = null;
 
-            if ((memberInfo != null && memberInfo.Length > 0))
+            if (anEnum is Enum)
             {
-                dynamic attribs = memberInfo[0]
-                    .GetCustomAttributes(typeof(DescriptionAttribute), false);
-                if ((attribs != null && attribs.Length > 0))
+                Type type = anEnum.GetType();
+                Array values = System.Enum.GetValues(type);
+
+                foreach (int val in values)
                 {
-                    return ((DescriptionAttribute) attribs[0]).Description;
+                    if (val == anEnum.ToInt32(CultureInfo.InvariantCulture))
+                    {
+                        var memInfo = type.GetMember(type.GetEnumName(val));
+                        var descriptionAttributes = memInfo[0].GetCustomAttributes(typeof(DescriptionAttribute), false);
+                        if (descriptionAttributes.Length > 0)
+                        {
+                            // we're only getting the first description we find
+                            // others will be ignored
+                            description = ((DescriptionAttribute)descriptionAttributes[0]).Description;
+                        }
+
+                        break;
+                    }
                 }
             }
 
-            return genericEnum.ToString();
+            return description;
         }
 
         #endregion

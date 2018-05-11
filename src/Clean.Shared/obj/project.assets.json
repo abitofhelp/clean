@@ -21,6 +21,18 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/2.0.2": {
         "type": "package",
         "dependencies": {
@@ -540,6 +552,18 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
         "microsoft.entityframeworkcore.2.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/2.0.3": {
+      "sha512": "8uPnfggdaJPB6ZlXotRJQwxVADsgtBd1m/eGb560v8aa4OT9mFPQN9Imqy/B//mcvM8oAHFJf2u/lXde8zclSA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/2.0.3",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.2.0.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/2.0.2": {
@@ -2381,6 +2405,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.EntityFrameworkCore >= 2.0.3",
+      "Microsoft.EntityFrameworkCore.InMemory >= 2.0.3",
       "NETStandard.Library >= 2.0.1"
     ]
   },
@@ -2391,11 +2416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Shared\\Clean.Shared.csproj",
+      "projectUniqueName": "C:\\GIT\\clean\\src\\Clean.Shared\\Clean.Shared.csproj",
       "projectName": "Clean.Shared",
-      "projectPath": "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Shared\\Clean.Shared.csproj",
+      "projectPath": "C:\\GIT\\clean\\src\\Clean.Shared\\Clean.Shared.csproj",
       "packagesPath": "C:\\Users\\mjgar\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Shared\\obj\\",
+      "outputPath": "C:\\GIT\\clean\\src\\Clean.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2426,6 +2451,10 @@
       "netstandard2.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.0.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[2.0.3, )"
           },

@@ -8,7 +8,7 @@ namespace Clean.Shared.Interfaces
     using System;
     using Microsoft.EntityFrameworkCore;
 
-    public interface IDatabaseContextBase<TP, TE> : IDisposable where TE : class, IEntity<TP> 
+    public interface IDatabaseContextBase<TE> : IDisposable where TE : class, IEntity 
     {
         #region Properties
 

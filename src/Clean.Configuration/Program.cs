@@ -6,7 +6,7 @@
 namespace Clean.Configuration
 {
     using Microsoft.AspNetCore;
-    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Hosting;    
 
     /// <summary>   A program. This class cannot be inherited. </summary>
     internal sealed class Program
@@ -20,12 +20,10 @@ namespace Clean.Configuration
         ///
         /// <returns>   An IWebHost. </returns>
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        private static IWebHost BuildWebHost(string[] args)
-        {
-            return WebHost.CreateDefaultBuilder(args)
-                          .UseStartup<Startup>()
-                          .Build();
-        }
+        public static IWebHost BuildWebHost(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .Build();
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         /// <summary>   Main entry-point for this application. </summary>

@@ -21,16 +21,10 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     public sealed class PostMotorcycleInteractorTest : IDisposable
     {
-        private readonly IAuthService _authService;
-        private readonly IMotorcycleRepository _motorcycleRepository;
+        //private readonly IAuthService _authService;
+        //private readonly IMotorcycleRepository _motorcycleRepository;
 
         #region Setup/Teardown
-
-        public PostMotorcycleInteractorTest(IAuthService authService, IMotorcycleRepository motorcycleRepository)
-        {
-            _authService = authService;
-            _motorcycleRepository = motorcycleRepository;
-        }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         /// <summary>
@@ -41,8 +35,8 @@
         public void Dispose()
         {
             // Configure common test teardown, here...
-            _authService?.Dispose();
-            _motorcycleRepository?.Dispose();
+            //_authService?.Dispose();
+            //_motorcycleRepository?.Dispose();
         }
 
         #endregion

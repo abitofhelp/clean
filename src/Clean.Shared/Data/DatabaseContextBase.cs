@@ -6,39 +6,44 @@
 namespace Clean.Shared.Data
 {
     using System;
-    //using Errors;
     using Interfaces;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.DependencyInjection;
 
     /// <typeparam name="TP">   Type of the primary key (i.e. ulong, string, etc.) </typeparam>
     /// <typeparam name="TE">   Type of the entity </typeparam>
-    public abstract class DatabaseContextBase<TP, TE> : IDatabaseContextBase<TP, TE> where TE : class, IEntity<TP>
+    public abstract class DatabaseContextBase<TE> : DbContext, IDatabaseContextBase<TE> where TE : class, IEntity
     {
-        private DbContext _dbContext { get; set; }
-
         #region IDisposable
 
-        protected virtual void Dispose(bool disposing)
+        private void Dispose(bool disposing)
         {
             if (disposing)
             {
-                foreach (var entity in Entities) { entity?.Dispose(); }
-
-                base.Dispose();
+                Dispose();
             }
+        }
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary>
+        /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged
+        /// resources.
+        /// </summary>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        public override void Dispose()
+        {
+            foreach (var entity in Entities) { entity?.Dispose(); }
+
+            base.Dispose();
         }
 
         #endregion
 
         #region Constructors / Finalizers
 
-        protected DatabaseContextBase() { }
+        protected DatabaseContextBase(DbContextOptions options) : base(options) { }
 
-        protected DatabaseContextBase(DbContextOptions options)
-        {
-            _dbContext = new DbContext(options);
-        }
+        protected DatabaseContextBase(DbContextOptions<DatabaseContextBase<TE>> options) : this((DbContextOptions)options) { }
 
         #endregion
 
@@ -50,7 +55,7 @@ namespace Clean.Shared.Data
 
         public DbSet<TE> Set()
         {
-            return _dbContext.Set<TE>();
+            return Set<TE>();
         }
 
         /// <summary>   Validate verifies that all of the fields in a DatabaseContextBase instance meet the requirements. </summary>
@@ -76,7 +81,7 @@ namespace Clean.Shared.Data
         /// <summary>   Creates a new context options object for testing purposes. </summary>
         ///
         /// <returns>   The new context options. </returns>
-        public static DbContextOptions<DatabaseContextBase<TP, TE>> CreateTestingContextOptions()
+        public static DbContextOptions<DatabaseContextBase<TE>>  CreateTestingContextOptions()
         {
             // Create a fresh service provider, and therefore a fresh 
             // InMemory database instance.
@@ -85,15 +90,14 @@ namespace Clean.Shared.Data
 
             // Create a new options instance telling the context to use an
             // InMemory database and the new service provider.  Using a GUID as a unique database name.
-            var builder = new DbContextOptionsBuilder<DatabaseContextBase<TP, TE>>();
-            builder.UseInMemoryDatabase(Guid.NewGuid()
-                                            .ToString())
+            var builder = new DbContextOptionsBuilder<DatabaseContextBase<TE>>();
+            builder.UseInMemoryDatabase(Guid.NewGuid().ToString())
                    .UseInternalServiceProvider(serviceProvider);
 
             return builder.Options;
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        /* protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             // When no options are provided, we will assume that we will use a real database, rather than an in-memory database, which is used for testing purposes.
             if (!options.IsConfigured)
@@ -104,6 +108,7 @@ namespace Clean.Shared.Data
             options.UseInMemoryDatabase("MotoMinder");
             base.OnConfiguring(options);
         }
+        */
 
         #endregion
     }

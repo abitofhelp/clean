@@ -76,6 +76,18 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/2.0.2": {
         "type": "package",
         "dependencies": {
@@ -1877,7 +1889,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.0.3"
+          "Microsoft.EntityFrameworkCore": "2.0.3",
+          "Microsoft.EntityFrameworkCore.InMemory": "2.0.3"
         },
         "compile": {
           "bin/placeholder/Clean.Shared.dll": {}
@@ -1978,6 +1991,18 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
         "microsoft.entityframeworkcore.2.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/2.0.3": {
+      "sha512": "8uPnfggdaJPB6ZlXotRJQwxVADsgtBd1m/eGb560v8aa4OT9mFPQN9Imqy/B//mcvM8oAHFJf2u/lXde8zclSA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/2.0.3",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.2.0.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/2.0.2": {
@@ -6276,11 +6301,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\motominderapi-aspnet-core\\tests\\Clean.Domain.UnitTests\\Clean.Domain.UnitTests.csproj",
+      "projectUniqueName": "C:\\GIT\\clean\\tests\\Clean.Domain.UnitTests\\Clean.Domain.UnitTests.csproj",
       "projectName": "Clean.Domain.UnitTests",
-      "projectPath": "C:\\GIT\\motominderapi-aspnet-core\\tests\\Clean.Domain.UnitTests\\Clean.Domain.UnitTests.csproj",
+      "projectPath": "C:\\GIT\\clean\\tests\\Clean.Domain.UnitTests\\Clean.Domain.UnitTests.csproj",
       "packagesPath": "C:\\Users\\mjgar\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\motominderapi-aspnet-core\\tests\\Clean.Domain.UnitTests\\obj\\",
+      "outputPath": "C:\\GIT\\clean\\tests\\Clean.Domain.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6299,11 +6324,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Domain\\Clean.Domain.csproj": {
-              "projectPath": "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Domain\\Clean.Domain.csproj"
+            "C:\\GIT\\clean\\src\\Clean.Domain\\Clean.Domain.csproj": {
+              "projectPath": "C:\\GIT\\clean\\src\\Clean.Domain\\Clean.Domain.csproj"
             },
-            "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Shared\\Clean.Shared.csproj": {
-              "projectPath": "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Shared\\Clean.Shared.csproj"
+            "C:\\GIT\\clean\\src\\Clean.Shared\\Clean.Shared.csproj": {
+              "projectPath": "C:\\GIT\\clean\\src\\Clean.Shared\\Clean.Shared.csproj"
             }
           }
         }

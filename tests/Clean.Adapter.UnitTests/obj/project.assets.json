@@ -1914,7 +1914,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.0.3"
+          "Microsoft.EntityFrameworkCore": "2.0.3",
+          "Microsoft.EntityFrameworkCore.InMemory": "2.0.3"
         },
         "compile": {
           "bin/placeholder/Clean.Shared.dll": {}
@@ -6362,11 +6363,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\motominderapi-aspnet-core\\tests\\Clean.Adapter.UnitTests\\Clean.Adapter.UnitTests.csproj",
+      "projectUniqueName": "C:\\GIT\\clean\\tests\\Clean.Adapter.UnitTests\\Clean.Adapter.UnitTests.csproj",
       "projectName": "Clean.Adapter.UnitTests",
-      "projectPath": "C:\\GIT\\motominderapi-aspnet-core\\tests\\Clean.Adapter.UnitTests\\Clean.Adapter.UnitTests.csproj",
+      "projectPath": "C:\\GIT\\clean\\tests\\Clean.Adapter.UnitTests\\Clean.Adapter.UnitTests.csproj",
       "packagesPath": "C:\\Users\\mjgar\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\motominderapi-aspnet-core\\tests\\Clean.Adapter.UnitTests\\obj\\",
+      "outputPath": "C:\\GIT\\clean\\tests\\Clean.Adapter.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6385,14 +6386,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Adapter\\Clean.Adapter.csproj": {
-              "projectPath": "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Adapter\\Clean.Adapter.csproj"
+            "C:\\GIT\\clean\\src\\Clean.Adapter\\Clean.Adapter.csproj": {
+              "projectPath": "C:\\GIT\\clean\\src\\Clean.Adapter\\Clean.Adapter.csproj"
             },
-            "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Domain\\Clean.Domain.csproj": {
-              "projectPath": "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Domain\\Clean.Domain.csproj"
+            "C:\\GIT\\clean\\src\\Clean.Domain\\Clean.Domain.csproj": {
+              "projectPath": "C:\\GIT\\clean\\src\\Clean.Domain\\Clean.Domain.csproj"
             },
-            "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Shared\\Clean.Shared.csproj": {
-              "projectPath": "C:\\GIT\\motominderapi-aspnet-core\\src\\Clean.Shared\\Clean.Shared.csproj"
+            "C:\\GIT\\clean\\src\\Clean.Shared\\Clean.Shared.csproj": {
+              "projectPath": "C:\\GIT\\clean\\src\\Clean.Shared\\Clean.Shared.csproj"
             }
           }
         }

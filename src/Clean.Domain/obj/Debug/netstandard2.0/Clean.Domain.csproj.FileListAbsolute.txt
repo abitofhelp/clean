@@ -1,3 +1,15 @@
 C:\GIT\motominderapi-aspnet-core\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.csproj.CoreCompileInputs.cache
 C:\GIT\motominderapi-aspnet-core\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.AssemblyInfoInputs.cache
 C:\GIT\motominderapi-aspnet-core\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.AssemblyInfo.cs
+C:\GIT\clean\src\Clean.Domain\bin\Debug\netstandard2.0\Clean.Domain.deps.json
+C:\GIT\clean\src\Clean.Domain\bin\Debug\netstandard2.0\Clean.Domain.dll
+C:\GIT\clean\src\Clean.Domain\bin\Debug\netstandard2.0\Clean.Domain.pdb
+C:\GIT\clean\src\Clean.Domain\bin\Debug\netstandard2.0\Clean.Shared.dll
+C:\GIT\clean\src\Clean.Domain\bin\Debug\netstandard2.0\Clean.Shared.pdb
+C:\GIT\clean\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.csprojAssemblyReference.cache
+C:\GIT\clean\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.csproj.CoreCompileInputs.cache
+C:\GIT\clean\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.AssemblyInfoInputs.cache
+C:\GIT\clean\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.AssemblyInfo.cs
+C:\GIT\clean\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.csproj.CopyComplete
+C:\GIT\clean\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.dll
+C:\GIT\clean\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.pdb

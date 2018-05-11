@@ -2,3 +2,17 @@ C:\GIT\motominderapi-aspnet-core\src\Clean.UseCase\obj\Debug\netstandard2.0\Clea
 C:\GIT\motominderapi-aspnet-core\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.AssemblyInfoInputs.cache
 C:\GIT\motominderapi-aspnet-core\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.AssemblyInfo.cs
 C:\GIT\motominderapi-aspnet-core\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.csprojResolveAssemblyReference.cache
+C:\GIT\clean\src\Clean.UseCase\bin\Debug\netstandard2.0\Clean.UseCase.deps.json
+C:\GIT\clean\src\Clean.UseCase\bin\Debug\netstandard2.0\Clean.UseCase.dll
+C:\GIT\clean\src\Clean.UseCase\bin\Debug\netstandard2.0\Clean.UseCase.pdb
+C:\GIT\clean\src\Clean.UseCase\bin\Debug\netstandard2.0\Clean.Domain.dll
+C:\GIT\clean\src\Clean.UseCase\bin\Debug\netstandard2.0\Clean.Shared.dll
+C:\GIT\clean\src\Clean.UseCase\bin\Debug\netstandard2.0\Clean.Domain.pdb
+C:\GIT\clean\src\Clean.UseCase\bin\Debug\netstandard2.0\Clean.Shared.pdb
+C:\GIT\clean\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.csprojAssemblyReference.cache
+C:\GIT\clean\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.csproj.CoreCompileInputs.cache
+C:\GIT\clean\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.AssemblyInfoInputs.cache
+C:\GIT\clean\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.AssemblyInfo.cs
+C:\GIT\clean\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.csproj.CopyComplete
+C:\GIT\clean\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.dll
+C:\GIT\clean\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.pdb

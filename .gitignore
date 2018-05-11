@@ -111,8 +111,9 @@ _TeamCity*
 *.dotCover
 
 # NCrunch
+globalconfig.crunch.v3.xml
 _NCrunch_*
-.*crunch*.local.xml
+*.v3.ncrunchsolution.user
 nCrunchTemp_*
 
 # NDepend

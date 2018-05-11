@@ -25,7 +25,7 @@ namespace Clean.Adapter.Gateways.Repositories
         ///
         /// <param name="dbContext">    Context for the database. </param>
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        internal MotorcycleRepository(MotorcycleContext dbContext) : base(dbContext) { }
+        public MotorcycleRepository(MotorcycleContext dbContext) : base(dbContext) { }
 
         #endregion
 

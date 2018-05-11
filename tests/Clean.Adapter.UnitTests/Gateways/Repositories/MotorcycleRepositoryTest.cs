@@ -74,6 +74,9 @@ namespace Clean.Adapter.Gateways.Repositories.UnitTests
             var options = MotorcycleContext.CreateTestingContextOptions();
             using (var context = new MotorcycleContext(options))
             {
+                // To ensure that the In-Memory database does not share state between tests.
+                context.Database.EnsureDeleted();
+
                 MotorcycleContext.LoadContextWithTestData(context);
                 var motorcycle = context.Entities.FirstOrDefault();
                 var repo = new MotorcycleRepository(context);
@@ -98,6 +101,9 @@ namespace Clean.Adapter.Gateways.Repositories.UnitTests
             var options = MotorcycleContext.CreateTestingContextOptions();
             using (var context = new MotorcycleContext(options))
             {
+                // To ensure that the In-Memory database does not share state between tests.
+                context.Database.EnsureDeleted();
+
                 var repo = new MotorcycleRepository(context);
 
                 // ACT
@@ -121,6 +127,9 @@ namespace Clean.Adapter.Gateways.Repositories.UnitTests
             var options = MotorcycleContext.CreateTestingContextOptions();
             using (var context = new MotorcycleContext(options))
             {
+                // To ensure that the In-Memory database does not share state between tests.
+                context.Database.EnsureDeleted();
+
                 MotorcycleContext.LoadContextWithTestData(context);
                 var motorcycle = context.Entities.FirstOrDefault();
                 var repo = new MotorcycleRepository(context);
@@ -146,6 +155,10 @@ namespace Clean.Adapter.Gateways.Repositories.UnitTests
             var options = MotorcycleContext.CreateTestingContextOptions();
             using (var context = new MotorcycleContext(options))
             {
+                // To ensure that the In-Memory database does not share state between tests.
+                // FIXME: Either add to each test method, or relocate to CreateTesting... or elsewhere.
+                context.Database.EnsureDeleted();
+
                 var repo = new MotorcycleRepository(context);
 
                 // ACT
@@ -445,7 +458,7 @@ namespace Clean.Adapter.Gateways.Repositories.UnitTests
                                                                         });
 
                 // ASSERT
-                Assert.True(updated.Make.Equals(kUpdatedMake));
+                Assert.Equal(updated.Make, kUpdatedMake);
             }
         }
 
