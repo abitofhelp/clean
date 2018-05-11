@@ -16,13 +16,6 @@ namespace Clean.Shared.Data
     {
         #region IDisposable
 
-        private void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                Dispose();
-            }
-        }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         /// <summary>
