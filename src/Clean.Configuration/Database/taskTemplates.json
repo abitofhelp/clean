@@ -1,0 +1,16 @@
+[
+{ 
+    "_id" : ObjectId("5a96f6b19790ae990c4a86de"), 
+    "name" : "Change Oil (L)", 
+    "value" : 1.0, 
+    "frequency" : {
+        "inMiles" : 0.0, 
+        "inHours" : 5.0
+    }, 
+    "comments" : "Penzoil 10W-40", 
+    "createdInUtc" : "", 
+    "modifiedInUtc" : "", 
+    "deletedInUtc" : "", 
+    "isDeleted" : false
+}
+]

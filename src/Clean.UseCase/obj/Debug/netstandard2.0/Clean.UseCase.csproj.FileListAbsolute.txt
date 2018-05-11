@@ -1,0 +1,4 @@
+C:\GIT\motominderapi-aspnet-core\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.csproj.CoreCompileInputs.cache
+C:\GIT\motominderapi-aspnet-core\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.AssemblyInfoInputs.cache
+C:\GIT\motominderapi-aspnet-core\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.AssemblyInfo.cs
+C:\GIT\motominderapi-aspnet-core\src\Clean.UseCase\obj\Debug\netstandard2.0\Clean.UseCase.csprojResolveAssemblyReference.cache

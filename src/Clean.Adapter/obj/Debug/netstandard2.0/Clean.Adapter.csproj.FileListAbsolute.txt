@@ -1,0 +1,3 @@
+C:\GIT\motominderapi-aspnet-core\src\Clean.Adapter\obj\Debug\netstandard2.0\Clean.Adapter.csproj.CoreCompileInputs.cache
+C:\GIT\motominderapi-aspnet-core\src\Clean.Adapter\obj\Debug\netstandard2.0\Clean.Adapter.AssemblyInfoInputs.cache
+C:\GIT\motominderapi-aspnet-core\src\Clean.Adapter\obj\Debug\netstandard2.0\Clean.Adapter.AssemblyInfo.cs

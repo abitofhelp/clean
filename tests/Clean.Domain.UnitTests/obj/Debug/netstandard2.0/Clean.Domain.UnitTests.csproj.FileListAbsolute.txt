@@ -1,0 +1,4 @@
+C:\GIT\motominderapi-aspnet-core\tests\Clean.Domain.UnitTests\obj\Debug\netstandard2.0\Clean.Domain.UnitTests.csprojResolveAssemblyReference.cache
+C:\GIT\motominderapi-aspnet-core\tests\Clean.Domain.UnitTests\obj\Debug\netstandard2.0\Clean.Domain.UnitTests.csproj.CoreCompileInputs.cache
+C:\GIT\motominderapi-aspnet-core\tests\Clean.Domain.UnitTests\obj\Debug\netstandard2.0\Clean.Domain.UnitTests.AssemblyInfoInputs.cache
+C:\GIT\motominderapi-aspnet-core\tests\Clean.Domain.UnitTests\obj\Debug\netstandard2.0\Clean.Domain.UnitTests.AssemblyInfo.cs

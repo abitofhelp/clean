@@ -1,0 +1,197 @@
+[
+{ 
+    "_id" : ObjectId("5a96f75f9790ae990c4a8702"), 
+    "name" : "2018 KTM 350 EXC-F", 
+    "preflight" : [
+        {
+            "name" : "Check the engine oil level. (p.129)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the electrical system.", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the brake fluid level of the front brake. (p.91)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the rear brake fluid level. (p.97)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the front brake linings. (p.93)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the rear brake linings. (p.98)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check that the brake system is functioning properly.", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the coolant level. (p.120)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check for chain dirt accumulation. (p.79)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the chain, rear sprocket, engine sprocket and chain guide. (p.82)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the chain tension. (p.80)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the tire condition. (p.106)", 
+            "value" : "", 
+            "comments" : "Minimum tread depth: 2mm", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the front tire air pressure. (p.106)", 
+            "value" : "15 psi, 22 psi", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the rear tire air pressure. (p.106)", 
+            "value" : "15 psi, 29 psi", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the spoke tension. (p.107)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Clean the dust boots of the fork legs. (p.61)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Bleed the fork legs. (p.60)", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the air filter.", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the settings of all controls and ensure that they can be operated smoothly.", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check all screws, nuts, and hose clamps regularly for tightness.", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "name" : "Check the fuel level.", 
+            "value" : "", 
+            "comments" : "Not more than published!", 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }
+    ]
+}
+]

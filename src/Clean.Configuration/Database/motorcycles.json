@@ -1,0 +1,59 @@
+[
+{ 
+    "_id" : ObjectId("5a96f75f9790ae990c4a8702"), 
+    "version" : 1.0, 
+    "tenantId" : ObjectId("598b53702f52f9485c080999"), 
+    "name" : "KT", 
+    "manufacturer" : "KTM", 
+    "model" : "350 EXC-F", 
+    "year" : NumberInt(2018), 
+    "vin" : "VBKEXH405JM206417", 
+    "engineNumber" : "879237717", 
+    "comments" : "Shiny and new!", 
+    "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+    "modifiedInUtc" : null, 
+    "deletedInUtc" : null, 
+    "isDeleted" : false, 
+    "purchased" : {
+        "from" : "GO AZ Motorcycles", 
+        "priceInUsd" : NumberDecimal("13188.56"), 
+        "wasNew" : true, 
+        "dateInUtc" : ISODate("2017-10-18T16:00:00.000+0000"), 
+        "mileage" : NumberDecimal("5.0"), 
+        "hours" : NumberDecimal("1.0")
+    }, 
+    "sold" : {
+        "to" : "", 
+        "priceInUsd" : NumberDecimal("0.0"), 
+        "dateInUtc" : null, 
+        "mileage" : NumberDecimal("0.0"), 
+        "hours" : NumberDecimal("0.0")
+    }, 
+    "log" : [
+        {
+            "taskId" : ObjectId("5a989c30bc6b4c801c1c3780"), 
+            "value" : NumberDecimal("0.0"), 
+            "metered" : {
+                "distance" : NumberDecimal("0.0"), 
+                "hours" : NumberDecimal("6.0")
+            }, 
+            "comments" : "", 
+            "documents" : [
+                {
+                    "gridFsId" : ObjectId("5a98a3a5bc6b4c801c1c3848"), 
+                    "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+                    "modifiedInUtc" : null, 
+                    "deletedInUtc" : null, 
+                    "isDeleted" : false
+                }
+            ], 
+            "servicedInUtc" : ISODate("2017-12-29T00:00:00.000+0000"), 
+            "createdInUtc" : ISODate("2018-03-01T16:08:59.824+0000"), 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }
+    ], 
+    "preflight" : ObjectId("5a96f75f9790ae990c4a8702")
+}
+]

@@ -1,0 +1,12 @@
+[
+{ 
+    "_id" : ObjectId("5a96f73e9790ae990c4a86f6"), 
+    "name" : "Tire Pressure (psi)", 
+    "value" : 40.0, 
+    "comments" : "Not more than published!", 
+    "createdInUtc" : "", 
+    "modifiedInUtc" : "", 
+    "deletedInUtc" : "", 
+    "isDeleted" : false
+}
+]

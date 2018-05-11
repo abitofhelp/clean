@@ -1,0 +1,3 @@
+C:\GIT\motominderapi-aspnet-core\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.csproj.CoreCompileInputs.cache
+C:\GIT\motominderapi-aspnet-core\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.AssemblyInfoInputs.cache
+C:\GIT\motominderapi-aspnet-core\src\Clean.Domain\obj\Debug\netstandard2.0\Clean.Domain.AssemblyInfo.cs

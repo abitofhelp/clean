@@ -1,0 +1,778 @@
+[
+{ 
+    "_id" : ObjectId("5a96f75f9790ae990c4a8702"), 
+    "name" : "\"2018 KTM 350 EXC-F\"", 
+    "tasks" : [
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3764"), 
+            "name" : "Read out the fault memory using the KTM diagnostics tool. ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0000", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3765"), 
+            "name" : "Check that the electrical system is functioning properly. ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0001", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3766"), 
+            "name" : "Check and charge the battery. ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0002", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3767"), 
+            "name" : "Check the front brake linings.(p.75) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0003", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3768"), 
+            "name" : "Check the rear brake linings.(p.79) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0004", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3769"), 
+            "name" : "Check the brake discs.(p.73) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0005", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c376a"), 
+            "name" : "Check the brake lines for damage and leakage. ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0006", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c376b"), 
+            "name" : "Check the rear brake fluid level.(p.78) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0007", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c376c"), 
+            "name" : "Check the free travel of the foot brake lever.(p.77) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0008", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c376d"), 
+            "name" : "Check the frame and swingarm.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0009", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c376e"), 
+            "name" : "Check the swingarm bearing for backlash.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0010", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c376f"), 
+            "name" : "Check the heim joints at the top and bottom of the shock absorber.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0011", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3770"), 
+            "name" : "Check the tire condition.(p.85) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0012", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3771"), 
+            "name" : "Check the tire air pressure.(p.85) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0013", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3772"), 
+            "name" : "Check the wheel bearing for play. ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0014", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3773"), 
+            "name" : "Check the wheel hubs.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0015", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3774"), 
+            "name" : "Check the rim run-out.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0016", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3775"), 
+            "name" : "Check the spoke tension.(p.86) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0017", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3776"), 
+            "name" : "Check the chain, rear sprocket, engine sprocket and chain guide.(p.68) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0018", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3777"), 
+            "name" : "Check the chain tension.(p.66) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0019", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3778"), 
+            "name" : "Grease all moving parts(e.g. side stand, hand lever, chain, ... ) and check for smooth operation.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0020", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3779"), 
+            "name" : "Check/correct the fluid level of the hydraulic clutch.(p.71) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0021", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c377a"), 
+            "name" : "Check the brake fluid level of the front brake.(p.74) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0022", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c377b"), 
+            "name" : "Check the free travel of the hand brake lever.(p.73) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0023", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c377c"), 
+            "name" : "Check the play of the steering head bearing.(p.55) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0024", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c377d"), 
+            "name" : "Check the valve clearance.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0025", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c377e"), 
+            "name" : "Check the clutch.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0026", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c377f"), 
+            "name" : "Change the cover seal and shaft seal rings of the water pump.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0027", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3780"), 
+            "name" : "Change the engine oil and oil filter, clean the oil screen.(p.103) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0028", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3781"), 
+            "name" : "Check all hoses(e.g. fuel, cooling, bleeder, drainage, etc.) and sleeves for cracking, leaks, and incorrect rout-ing.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0029", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3782"), 
+            "name" : "Check the antifreeze and coolant level.(p.95) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0030", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3783"), 
+            "name" : "Check the cables for damage and routing without sharp bends.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0031", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3784"), 
+            "name" : "Check that the throttle cables are undamaged, routed without sharp bends, and set correctly. ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0032", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3785"), 
+            "name" : "Clean the air filter and air filter box.(p.60) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0033", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3786"), 
+            "name" : "Change glass fiber yarn filling in the main silencer.(p.62) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0034", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3787"), 
+            "name" : "Check the screws and nuts for tightness.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0035", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3788"), 
+            "name" : "Check the headlight setting.(p.93) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0036", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3789"), 
+            "name" : "Change the fuel screen.(p.102) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0037", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c378a"), 
+            "name" : "Check the fuel pressure.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0038", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c378b"), 
+            "name" : "Check idle.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0039", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c378c"), 
+            "name" : "Check that the radiator fan is functioning properly.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0040", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c378d"), 
+            "name" : "Check the inlet membrane.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0041", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c378e"), 
+            "name" : "Final check: Check the vehicle is roadworthy and take a test ride.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0042", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c378f"), 
+            "name" : "Read out the error memory after the test ride using the KTM diagnostics tool.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0043", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3790"), 
+            "name" : "Make the service entry in the KTM Dealer.net and in the Service and Warranty Booklet.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0044", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3791"), 
+            "name" : "", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0045", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3792"), 
+            "name" : "Change the front brake fluid.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0046", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3793"), 
+            "name" : "Change the rear brake fluid.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0047", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3794"), 
+            "name" : "Change the hydraulic clutch fluid.(p.72) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0048", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3795"), 
+            "name" : "Lubricate the steering head bearing.(p.56) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0049", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3796"), 
+            "name" : "Clean the spark arrestor.(p.61) ", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0050", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3797"), 
+            "name" : "Service the fork.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0051", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3798"), 
+            "name" : "Service the shock absorber.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0052", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c3799"), 
+            "name" : "Change the fuel filter.", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0053", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }, 
+        {
+            "_Id" : ObjectId("5a989c30bc6b4c801c1c379a"), 
+            "name" : "Perform engine service including removing and installing the engine.(Change the spark plug and spark plug connector. Change the piston. Check/measure the cylinder. Check the cylinder head. Change the valves, valve springs, and valve spring seats. Check the camshaft and cam lever. Change the connecting rod, conrod bearing, and crank pin. Change the shaft seal rings of the water pump.Check the transmis-sion and shift mechanism. Check the oil pressure regulator valve. Change the suction pump.Check the force pump and lubrication system. Check the timing assembly. Change the timing chain. Change all engine bearings. Change the freewheel.)", 
+            "value" : 0.0, 
+            "frequency" : {
+                "InDistance" : 0.0, 
+                "inHours" : 15.0
+            }, 
+            "comments" : "a comment", 
+            "createdInUtc" : "2018-03-01T16:08:59.824+0054", 
+            "modifiedInUtc" : null, 
+            "deletedInUtc" : null, 
+            "isDeleted" : false
+        }
+    ]
+}
+]
