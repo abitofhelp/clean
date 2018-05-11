@@ -26,6 +26,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clean.UseCase.UnitTests", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clean.Configuration", "src\Clean.Configuration\Clean.Configuration.csproj", "{CC4A7B3B-A978-4A7E-AB96-BC6B386B6A48}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "automation", "automation", "{A183DFCD-0183-4F82-944D-67BB52DFC1E0}"
+	ProjectSection(SolutionItems) = preProject
+		automation\CreateInitialSolutionAndProjects.ps1 = automation\CreateInitialSolutionAndProjects.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,8 +179,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49151394-EC86-492C-87DF-96B884CA6B32}
-	EndGlobalSection
-	GlobalSection(NDepend) = preSolution
-		Project = ".\Clean.ndproj"
 	EndGlobalSection
 EndGlobal
